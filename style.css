@@ -95,13 +95,43 @@ nav > a {
 }
 
 main {
+  padding: 30px 0 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1 1 auto;
+  gap: 20px;
 }
 
 main > h2 {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+}
+
+.main-content {
+  display: flex;
+  gap: 30px;
+}
+
+.main-image-block {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+
+.main-image-block > img {
+  width: 150px;
+  height: auto;
+  align-self: center;
+  border: 1px solid blue;
+  border-radius: 8px;
+}
+
+.main-image-block > p {
+  width: 150px;
+  text-align: center;
 }
 
 .quote {
