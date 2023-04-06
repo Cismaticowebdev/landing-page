@@ -135,6 +135,12 @@ main > h2 {
 }
 
 .quote {
+  padding: 60px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
   flex: 1 1 auto;
   background-color: #e5e7eb;
 }
@@ -143,6 +149,10 @@ main > h2 {
   font-size: 36px;
   font-style: italic;
   color: #1f2937;
+}
+
+.quote > h3 {
+  align-self: flex-end;
 }
 
 footer {
